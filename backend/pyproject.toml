@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+flask-shell-ipython = "^0.4.1"
+flask = "^2.2.2"
+flask-cors = "^3.0.10"
+ipykernel = "^6.17.1"
 
 
 [build-system]
