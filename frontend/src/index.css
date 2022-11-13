@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* place title bar at the top */
+.title-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+}
+
+/* nice rounded buttons */
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* code box spanning most of the screen */
+.code-cell-container {
+  display: flex;
+  background-color: #282c34;
+  color: white;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* code box should appear below previous code box */
+code {
+  display: block;
+  margin: 10px;
+}
+
+/* container for each cell */
+.code-cell {
+  flex-grow: 1;
+  align-self: flex-start;
+}
+
+/* place the run button next to the code */
+.run-button {
+  align-self: flex-center;
+  background-color: #61dafb;
+  height: fit-content;
+  width: 100px;
+}
+
+
+/* container for the cells and their output */
+.cells {
+  position: fixed;
+  top: 100px;
+  overflow-y: scroll;
+  height: calc(100% - 50px);
+  background-color: #282c34;
+  color: white;
+  font-size: 18px;
+  padding: 50px;
+  margin: 50px;
+  width: 80%;
+}
+
+
+/* cute text  box */
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+/* place the content below the title bar */
+.button-bar {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+}

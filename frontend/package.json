@@ -10,9 +10,13 @@
     "@types/node": "^16.18.3",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
+    "@types/uuid": "^8.3.4",
+    "ansi-to-react": "^6.1.6",
     "react": "^18.2.0",
+    "react-ansi": "^3.0.2",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-textarea-autosize": "^8.4.0",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
