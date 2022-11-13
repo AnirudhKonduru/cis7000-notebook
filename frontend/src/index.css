@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+/* nice font for code in the editor */
+textarea {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+
 /* place title bar at the top */
 .title-bar {
   position: fixed;
@@ -73,12 +79,13 @@ code {
   position: fixed;
   top: 100px;
   overflow-y: scroll;
-  height: calc(100% - 50px);
+  height: 100%;
   background-color: #282c34;
   color: white;
   font-size: 18px;
   padding: 50px;
   margin: 50px;
+  margin-bottom: 100px;
   width: 80%;
 }
 
